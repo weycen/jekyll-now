@@ -12,6 +12,10 @@ description: 选择谦卑生活的人，心中必有明灯指引
 avatar: https://avatars.githubusercontent.com/u/22557692?v=4
 
 
+#网站 ICON （要求为 ico 格式）
+favicon : '/images/favicon.ico'
+
+
 #
 # Flags below are optional
 #
@@ -28,7 +32,7 @@ footer-links:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
