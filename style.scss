@@ -271,6 +271,19 @@ nav {
   }
 }
 
+.publish-info {
+  display: flex;
+  align-items: center;
+}
+
+.publish-author {
+  margin-right: 10px;
+}
+
+.publish-date {
+  color: gray;
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;

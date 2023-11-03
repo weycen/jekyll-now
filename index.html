@@ -12,7 +12,20 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
+      <!-- <p class="post-meta">  Posted by xxx on 2018-11-19  </p> -->
+      <!-- <p class="post-meta"> Written by "{{ post.author }}" on {{ page.date | date: "%B %e, %Y" }}  </p>
+      <p class="date">  Written on {{ page.date | date: "%B %e, %Y" }} </p> -->
+
+      <div class="publish-info">
+        <span class="publish-author">"{{ post.author }}" </span>
+        <span>on</span>
+        <span class="publish-date">{{ page.date | date: "%B %e, %Y" }}</span>
+      </div>
+
     </article>
   {% endfor %}
 </div>
+
+
+

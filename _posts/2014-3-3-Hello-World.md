@@ -1,5 +1,6 @@
 ---
 layout: post
+author: weycen
 title: You're up and running!
 ---
 
