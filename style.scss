@@ -272,12 +272,16 @@ nav {
 }
 
 .publish-info {
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // font-family: Lora,'Times New Roman',serif;
+  color: gray;
+  font-size: 10px;
+  font-style: italic;
+  // margin-top: 0;
 }
 
 .publish-author {
-  margin-right: 10px;
+  color: gray;
 }
 
 .publish-date {
